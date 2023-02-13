@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+.navbar div a{
+    background-color: lightsteelblue;
+    text-decoration: solid;
+    padding: 10px;
+    color: white;
+}
+
+.Judul{
+    display: flex;
+    justify-content: center;
+}
+
+.add-karyawan button{
+    display: flex;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.add-karyawan a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.add-karyawan{
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.top-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.List{
+    font-weight: bold;
+}
+
+.center-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.karyawan-box{
+    padding: 10px;
+    border-width: 5px 0px 10px 0px;
+    display: inline-block;
+    gap: 5px;
+    width: 250px;
+    height: 125px;
+    border: solid;
+    /* background-color: deepskyblue; */
+    border-radius: 10px;
+    border-color: grey;
+    justify-content: center;
+    color: black;
+}
+
+.karyawan-box button a{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.karyawan-box button{
+    margin-top: 10px;
+    height: 30px;
+    width: 50px;
+}
+
+.karyawan-box .edit{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.karyawan-box .delete{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}
+
+.nama{
+    text-align: left;
+    font-weight: bold;
+    font-size: 26px;
+}

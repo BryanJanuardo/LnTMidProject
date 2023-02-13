@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+.navbar div a{
+    background-color: lightsteelblue;
+    text-decoration: solid;
+    padding: 10px;
+    color: white;
+}
+
+.List{
+    font-weight: bold;
+}

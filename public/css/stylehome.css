@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+
+}
+
+.navbar div a{
+    background-color: lightsteelblue;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.center{
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: black;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    gap: 30px;
+}
+
+.Home{
+    font-weight: bold;
+}
+
+.Judul{
+    font-weight: bold;
+}

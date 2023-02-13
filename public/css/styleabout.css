@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+    margin: 20px;
+}
+
+.navbar div a{
+    background-color: lightsteelblue;
+    text-decoration: none;
+    padding: 10px;
+    color: white
+}
+
+.Else{
+    background-color: grey;
+}
+
+.About{
+    font-weight: bold;
+}

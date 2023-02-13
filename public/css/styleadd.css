@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+}
+
+.navbar div a{
+    background-color: lightsteelblue;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.List{
+    font-weight: bold;
+}
+
+.form-utama{
+    padding-top: 20px;
+    border: solid;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+    /* border: none; */
+    margin: 20px 20px;
+}
+
+.error{
+    color: red;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+
+.form-utama fieldset{
+    border: none;
+}
+
+.Nama{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Nama input{
+    border-radius: 10px;
+    padding: 4px 5px;
+}
+.Umur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Umur input{
+    border-radius: 10px;
+    padding: 4px 5px;
+}
+.Alamat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Alamat input{
+    border-radius: 10px;
+    padding: 4px 5px;
+}
+.Nomor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Nomor input{
+    border-radius: 10px;
+    padding: 4px 5px;
+}
+
+.Button-Input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.Cancel{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: blue;
+}
+
+.Cancel button{
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+.Submit{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.Submit button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
